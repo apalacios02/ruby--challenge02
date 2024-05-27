@@ -1,7 +1,7 @@
 # Author: Allan Palacios
 
 class Pangram
-    def self.is_pangram?(sentence)
+    def self.is_pangram?(sentence) # Class method -identifies itself.
       # Create a hash to store the presence of each letter
       letter_presence = Hash.new(false)
   

@@ -5,7 +5,7 @@ class Grains
       2**(square_number - 1)
     end
   
-    def self.total
+    def self.total # class method - identifies itself.
       (1..64).sum { |square| square(square) }
     end
   end
